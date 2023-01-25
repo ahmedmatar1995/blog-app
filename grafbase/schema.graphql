@@ -1,0 +1,21 @@
+type TodoList @model {
+  id: ID!
+  title: String!
+  todos: [Todo]
+}
+
+type Todo @model {
+  id: ID!
+  title: String!
+  complete: Boolean!
+}
+
+
+
+type Blog @model{
+  id:ID!
+  title:String!
+  image:String!
+  content:String!
+
+}
